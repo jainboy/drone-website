@@ -1,0 +1,41 @@
+.card.shadow.adjestment {
+    margin: 15px;
+}
+
+img.rounded-circle.mb-3.mt-4.filemodule {
+  width: 50%;
+  border: 1px solid;
+}
+.dropdown-menu {
+  margin:0px !important;
+  color: hsla(0,0%,100%,.8) !important;
+  background: #4e73df;
+  border: 0px !important;
+  border-radius: 0px !important;
+
+}
+.dropdown-menu a{
+  color: hsla(0,0%,100%,.8) !important;
+}
+.dropdown-menu a:hover{
+  color: #fff !important;
+  background: none !important;
+}
+ /* On mouse-over */
+.drop-down-container a:hover {
+  text-decoration: none;
+  color:#ffffff;
+}
+
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+  
+@media only screen and (max-width:520px){
+  img.rounded-circle.mb-3.mt-4.filemodule {
+    width: 100%;
+  }
+}
